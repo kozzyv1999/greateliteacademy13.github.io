@@ -1,0 +1,179 @@
+h5 {
+    color:maroon;
+    background-color:palevioletred;
+    font-size: 20px;
+    text-align:center;
+    border:3px;
+    border-radius: 30px;
+}
+p {
+    color:black;
+}
+li {
+    color:maroon;
+    list-style-type: disc;
+}
+blockquote {
+    color:rgb(88, 78, 78);
+}
+#awards-achievements {
+    background-color: lightskyblue;
+    margin:20px;
+    border:3pxs;
+    padding:20px;
+}
+#school-sections {
+    color:rgb(106, 106, 184);
+    background:skyblue;
+    border:3px;
+    margin:20px;
+    padding:20px;    
+}
+a[href] {
+    text-decoration:rgb(13, 56, 248);
+}  
+h1 {
+    color:rgb(187, 81, 6);    
+    text-align:center;
+}
+span {
+    color:rgb(187, 81, 6)
+}
+body {
+    background-color:rgb(250, 247, 244);
+}
+#contact {
+    background-color: rgb(148, 148, 250);
+}
+.image-slide {
+    width:100%;
+    display:flex;
+    animation:slide 20s infinite;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    12%{
+        transform: translateX(-100%);
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    22%{
+        transform: translateX(-200%);
+    }
+    30%{
+        transform: translateX(-200%);       
+    }
+    32%{
+        transform: translateX(-300%); 
+    }
+    40%{
+        transform: translateX(-300%);
+    }
+    42%{
+        transform: translateX(-400%);
+    }
+    50%{
+        transform: translateX(-400%);
+    }
+    52%{
+        transform: translateX(-500%);
+    }
+    60%{
+        transform: translateX(-500%);
+    }
+    62%{
+        transform: translateX(-500%);
+    }
+    70%{
+        transform: translateX(-600%);
+    }
+    72%{
+        transform: translateX(-600%);
+    }
+    80%{
+        transform: translateX(-700%);
+    }
+    82%{
+        transform: translateX(-700%);
+    }
+    90%{
+        transform: translateX(-800%);
+    }
+    100%{
+        transform: translateX(-800%);
+    }
+}
+header {
+    background-color: red;
+    padding: 0.2px;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    border-radius: 5px;
+}
+header h2 {
+    border:3px rgb(255, 153, 0) solid;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.graphic-class{
+    position: relative;
+}
+.graphic-class h3{
+    position: absolute;
+    top:310px;
+    font-size: 60px;
+    color:rgb(65, 105, 4);
+    background-color:rgb(250, 174, 119);
+    padding: 10px;    
+}
+nav{
+    background-color: rgb(161, 160, 160);
+    padding:0.1px;
+    width: 1065px;
+    position: sticky;
+    top: 80px;
+    border-radius: 5px;
+}
+nav ul{
+    white-space: nowrap;
+    margin: 0 auto;
+}
+nav li{
+    width: 20%;
+    display: inline-block;
+}
+footer{
+    background-color: rgb(252, 15, 15);
+    text-align: center;
+    padding: 0.5px;
+    border:6px 12px;
+    border-radius: 20px;
+}
+
+/* pseudo classes */
+nav li:hover{
+     text-decoration:underline ;
+}
+
+    
+
+
+
+
+
+
+
+
+
+

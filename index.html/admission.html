@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <tile>ADMISSION</tile>
+    </head>
+
+    <body>
+        <h5><em>ADMISSION PROCEDURE INTO GREAT ELITE ACADEMY</em></h5>
+        <P>To be eligible for admission into Great Elite Academy,Candidate must be upto 2 years old for admission into nursery one and upto 5 years old for admission into basic one.Also,candidate will sit for a written test interview before registration can be concluded.For online registration,kindly fill the form below and come along to the school with the printed copy for a complete registration. </P>
+        
+        <form>
+            <label for="Candidates Name">Enter Candidate's Name:</label>
+            <input type="text" id="Candidate's Name" required>
+            <label for="Parents Name">Enter Parent's Name:</label>
+            <input type="text" id="Parent's Name" required >
+            <br></br>
+            <label for="Parent's Phone Number">Enter Parent's Phone No:</label>
+            <input type="number" id="Parents Phone No" required>
+            <label for="Home Address">Enter Home Address:</label>
+            <input type="text" id="Home address" required>
+            <br></br>
+            <label for="candidate's date of birth">Candidate's Date of birth:</label>
+            <input type="text" id="candidate's date of birth" placeholder="d/m/y" required>
+            <br></br>
+            <label for="question">Candidate's Age</label>
+            <select name="question" id="question">
+                <option value="q1">1 year</option>
+                <option value="q2">2 years</option>
+                <option value="q3">3 years</option>
+                <option value="q4">4 years</option>
+                <option value="q5">5 years</option>
+                <option value="q6">6 years</option>
+                <option value="q7">7 years</option>
+                <option value="q8">8 years</option>
+                <option value="q9">9 years</option>
+                <option value="q10">10 years</option>
+                <option value="q11">11 years</option>
+                <option value="q12">12 years</option>
+            </select>
+            <br></br>
+        <label for="questions">Candidate's present class</label>
+        <select name="questions" id="questions">
+            <option value="q1">Pre nur</option>
+            <option value="q2">Nur 1</option>
+            <option value="q3">Nur 2</option>
+            <option value="q4">Nur 3</option>
+            <option value="q5">Basic 1</option>
+            <option value="q6">Basic 2</option>
+            <option value="q7">Basic 3</option>
+            <option value="q8">Basic 4</option>        
+            <option value="q9">Basic 5</option>
+            <option value="q10">Basic 6</option>
+        </select>
+            <br></br>
+        <p>Gender</p>
+        <input type="radio" name="gender" value="male" id="option-1">
+        <label for="option-1">Male</label>
+        <input type="radio" name="gender" value="female" id="option-2">
+        <label for="option-2">Female</label>
+        <br></br>
+        <P>Does your child have any health issues?</P>
+        <input type="radio" name="health issues" value="yes" id="option-a">
+        <label for="option a">YES</label>
+        <input type="radio" name="health issues" value="no" id="option-b">
+        <label for="option b">NO</label>
+        <br></br>
+        <label for="health issues">If Any,Please State</label>
+        <input type="text" id="health issues">
+        <br></br>
+        <input type="submit" value="submit form">
+        </form>        
+    </body>
+</html>
